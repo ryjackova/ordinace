@@ -1,0 +1,16 @@
+hours:
+    - id: 1
+      day: Po
+      time: "8:00–13:00"
+    - id: 2
+      day: Út
+      time: "8:00–12:00"
+    - id: 3
+      day: St
+      time: "12:00–18:00"
+    - id: 4
+      day: Čt
+      time: "8:00–12:00"
+    - id: 5
+      day: Pá
+      time: "8:00–11:00"

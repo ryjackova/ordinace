@@ -1,0 +1,12 @@
+<section>
+    <h2>Ordinační hodiny</h2>
+
+    <div class="hours">
+        {% for h in site.data.ordination.hours %}
+        <div class="row">
+            <span class="day">{{ h.day }}</span>
+            <span class="time">{{ h.time }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</section>

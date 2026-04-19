@@ -1,11 +1,47 @@
 <!doctype html>
-<html>
+<html lang="cs">
     <head>
-        <meta charset="utf-8" />
-        <title>{{ page.title }}</title>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+
+        <title>{{ page.title }} | {{ site.title }}</title>
+
+        <link
+            rel="stylesheet"
+            href="/assets/style.css" />
     </head>
 
+    <script>
+        const today = new Date().getDay(); // 0 = neděle
+
+        const map = {
+            1: 1, // Po
+            2: 2,
+            3: 3,
+            4: 4,
+            5: 5,
+        };
+
+        const todayId = map[today];
+
+        if (todayId) {
+            document.querySelectorAll(".hours .row").forEach((row, i) => {
+                if (i === todayId - 1) {
+                    row.classList.add("active");
+                }
+            });
+        }
+    </script>
+
     <body>
-        {{ content }}
+        <main>{{ content }}</main>
+
+        <a
+            class="sticky-btn"
+            href="https://emmy.cz">
+            Objednat se
+        </a>
     </body>
 </html>

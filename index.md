@@ -1,10 +1,6 @@
 ---
 layout: default
-title: Ordinace MUDr. Ivany Ryjáčkové
+title: Ordinace
 ---
 
-Vítejte na stránkách ordinace.
-
-- ordinační hodiny,
-- aktuality,
-- kontaktní informace
+{% include hero.html %}
