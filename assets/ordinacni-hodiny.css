@@ -17,6 +17,10 @@
     background: none;
 }
 
+table tr:nth-child(even) {
+    background: none;
+}
+
 .hours-table td:first-child {
     font-weight: 600;
     white-space: nowrap;

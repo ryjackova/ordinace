@@ -2,3 +2,8 @@ title: MUDr. Ivana Ryjáčková
 lang: cs-CZ
 theme: minima
 markdown: kramdown
+header_pages:
+    - index.md
+    - objednavkovy-system.md
+    - gdpr.md
+    - kontakt.md
