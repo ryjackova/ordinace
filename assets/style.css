@@ -90,3 +90,21 @@ section {
 .btn-emmy:hover {
     background: #009688;
 }
+
+.hours-table {
+    width: 100%;
+    max-width: 500px;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+.hours-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+    background: none;
+}
+
+.hours-table .day {
+    font-weight: 600;
+    white-space: nowrap;
+}
