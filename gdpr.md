@@ -1,3 +1,9 @@
+---
+layout: default
+title: GDPR
+permalink: /gdpr/
+---
+
 # Informace pro pacienty o zpracování osobních údajů
 
 Podle nařízení Evropského parlamentu a Rady (EU) 2016/679 ze dne 27. dubna 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů

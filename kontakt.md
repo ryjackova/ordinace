@@ -8,9 +8,6 @@ permalink: /kontakt/
 
 **MUDr. Ivana Ryjáčková**
 
-Doplňte prosím:
+Rakovník, U Hluboké studny 139
 
-- adresu ordinace,
-- telefon,
-- e-mail,
-- ordinační hodiny.
+733 766 883
