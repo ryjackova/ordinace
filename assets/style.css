@@ -72,3 +72,15 @@ section {
 .time {
     text-align: right;
 }
+
+.exceptions {
+    color: #b00020;
+}
+
+.exceptions ul {
+    padding-left: 20px;
+}
+
+.exceptions p {
+    margin: 8px 0;
+}
