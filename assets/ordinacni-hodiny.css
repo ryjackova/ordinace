@@ -1,3 +1,7 @@
+.hours {
+    margin: 32px;
+}
+
 .hours-table {
     width: 100%;
     max-width: 480px;
