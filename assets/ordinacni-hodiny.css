@@ -10,10 +10,11 @@
     padding: 10px 14px;
     text-align: left;
     border-bottom: 1px solid #eee;
+    background: none;
 }
 
-.hours-table tbody tr:hover {
-    background: #f0faff;
+.hours-table tr:nth-child(even) {
+    background: none;
 }
 
 .hours-table td:first-child {
