@@ -1,0 +1,22 @@
+.exception {
+    color: #b00020;
+}
+
+@media (min-width: 600px) {
+    .hours {
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+.exceptions {
+    color: #b00020;
+}
+
+.exceptions ul {
+    padding-left: 20px;
+}
+
+.exceptions p {
+    margin: 8px 0;
+}

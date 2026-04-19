@@ -31,48 +31,6 @@ section {
     font-size: 18px;
 }
 
-/* .hours .row {
-    display: flex;
-    justify-content: space-between;
-    padding: 6px 0;
-} */
-
-.today {
-    font-size: 18px;
-    margin-top: 12px;
-}
-
-.exception {
-    color: #b00020;
-}
-
-@media (min-width: 600px) {
-    .hours {
-        max-width: 400px;
-        margin: auto;
-    }
-}
-
-.day {
-    min-width: 40px;
-}
-
-.time {
-    text-align: right;
-}
-
-.exceptions {
-    color: #b00020;
-}
-
-.exceptions ul {
-    padding-left: 20px;
-}
-
-.exceptions p {
-    margin: 8px 0;
-}
-
 .btn-emmy {
     display: inline-block;
     padding: 12px 24px;
@@ -89,22 +47,4 @@ section {
 
 .btn-emmy:hover {
     background: #002244;
-}
-
-.hours-table {
-    width: 100%;
-    max-width: 500px;
-    border-collapse: collapse;
-    margin-top: 12px;
-}
-
-.hours-table td {
-    padding: 8px 12px;
-    border-bottom: 1px solid #eee;
-    background: none;
-}
-
-.hours-table .day {
-    font-weight: 600;
-    white-space: nowrap;
 }
