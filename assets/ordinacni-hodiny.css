@@ -30,29 +30,10 @@ table tr:nth-child(even) {
     white-space: nowrap;
 }
 
-.hours-table .row {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* padding: 8px 10px;
-    border-radius: 6px; */
-}
-
 .hours-table .row.active {
     background: #e6f4ff;
     font-weight: 600;
 }
-
-/* 
-.hours-table td {
-    padding: 8px 12px;
-    border-bottom: 1px solid #eee;
-    background: none;
-}
-
-.hours-table .day {
-    font-weight: 600;
-    white-space: nowrap;
-} */
 
 .day {
     min-width: 40px;
