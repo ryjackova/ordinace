@@ -18,10 +18,13 @@
     };
     const todayId = map[today];
     if (todayId) {
-        document.querySelectorAll(".hours-table .row").forEach((row, i) => {
-            if (i === todayId - 1) {
-                row.classList.add("active");
-            }
-        });
+        console.debug("todayId", todayId);
+        document
+            .querySelectorAll("table.hours-table tr.row")
+            .forEach((row, i) => {
+                if (i === todayId - 1) {
+                    row.classList.add("active");
+                }
+            });
     }
 </script>

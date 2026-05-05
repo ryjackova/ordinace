@@ -4,7 +4,7 @@
 
 .hours-table {
     width: 100%;
-    max-width: 480px;
+    /* max-width: 480px; */
     border-collapse: collapse;
     margin-top: 12px;
 }
@@ -31,10 +31,10 @@ table tr:nth-child(even) {
 }
 
 .hours-table .row {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 10px;
-    border-radius: 6px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* padding: 8px 10px;
+    border-radius: 6px; */
 }
 
 .hours-table .row.active {
