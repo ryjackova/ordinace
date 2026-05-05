@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^gem contents minima 2>/dev/null \\| grep head\\.html; gem environment home 2>/dev/null$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
