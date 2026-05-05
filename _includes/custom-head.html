@@ -8,24 +8,26 @@
     rel="stylesheet"
     href="{{ '/assets/dovolena-a-oznameni.css' | relative_url }}" />
 <script>
-    const today = new Date().getDay(); // 0 = neděle
-    const map = {
-        1: 1, // Po
-        2: 2,
-        3: 3,
-        4: 4,
-        5: 5,
-    };
-    const todayId = map[today];
-    if (todayId) {
-        console.debug("todayId", todayId);
-        document
-            .querySelectorAll("table.hours-table tr.row")
-            .forEach((row, i) => {
-                console.debug(i);
-                if (i === todayId - 1) {
-                    row.classList.add("active");
-                }
-            });
-    }
+    document.addEventListener("DOMContentLoaded", () => {
+        const today = new Date().getDay(); // 0 = neděle
+        const map = {
+            1: 1, // Po
+            2: 2,
+            3: 3,
+            4: 4,
+            5: 5,
+        };
+        const todayId = map[today];
+        if (todayId) {
+            console.debug("todayId", todayId);
+            document
+                .querySelectorAll("table.hours-table tr.row")
+                .forEach((row, i) => {
+                    console.debug(i);
+                    if (i === todayId - 1) {
+                        row.classList.add("active");
+                    }
+                });
+        }
+    });
 </script>
