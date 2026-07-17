@@ -11,6 +11,8 @@
 
 .exceptions {
     color: #b00020;
+    font-size: larger;
+    font-weight: 600;
 }
 
 .exceptions ul {
