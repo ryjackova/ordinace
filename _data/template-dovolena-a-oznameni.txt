@@ -8,3 +8,13 @@ exceptions_markdown: |
     <strong style="color:red;">Dovolená:&nbsp;17.8-11.9.2026.</strong>
     <div>Zástup:&nbsp;MUDr.&nbsp;Jakub&nbsp;Volf, Kuštova&nbsp;2712 (bývalá vrátnice TOS Rakovník).</div>
     <div>Objednání 7:30-9:30 na tel.&nbsp;725&nbsp;455&nbsp;043 nebo e-mail doktor2712@seznam.cz</div>
+
+
+exceptions_markdown: |
+    <strong style="color:red;">Z&nbsp;důvodu školení lékaře bude&nbsp;2.11.2026&nbsp;ordinace&nbsp;mimo&nbsp;provoz.</strong>
+    <div>Akutní stavy: Lékařská&nbsp;pohotovostní&nbsp;služba, Masarykova&nbsp;nemocnice&nbsp;Rakovník, Dukelských&nbsp;hrdinů&nbsp;200</div>
+    <div>Tel.:&nbsp;313&nbsp;525&nbsp;382 nebo 313&nbsp;525&nbsp;111&nbsp;(vrátnice)</div>
+    <div></div>
+    <div>Ordinační&nbsp;hodiny:&nbsp;Po-Pá&nbsp;18:00-21:00, So-Ne&nbsp;a&nbsp;svátky:&nbsp;8:00-16:00</div>
+    
+ 
