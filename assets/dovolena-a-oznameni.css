@@ -15,6 +15,11 @@
     font-weight: 600;
 }
 
+.exceptions .font-normal {
+    font-size: medium;
+    font-weight: normal;
+}
+
 .exceptions ul {
     padding-left: 20px;
 }
