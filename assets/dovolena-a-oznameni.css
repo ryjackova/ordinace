@@ -13,11 +13,11 @@
     color: #b00020;
     font-size: larger;
     font-weight: 600;
-}
 
-.exceptions .font-normal {
+    .normal {
     font-size: medium;
     font-weight: normal;
+    }
 }
 
 .exceptions ul {
